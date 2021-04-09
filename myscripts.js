@@ -1,5 +1,1 @@
-console.log('sdfdf')
-if ("serviceWorker" in navigator) {
-  // register service worker
-  navigator.serviceWorker.register("service-worker.js");
-}
+if ('serviceWorker' in navigator) { register service worker navigator.serviceWorker.register('/service-worker.js'); }
